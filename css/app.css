@@ -1,0 +1,55 @@
+/*♣♣♣♣Imagen de fondo estática♣♣♣♣*/
+body{
+    background-image: url(../img/fondos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*♣♣♣♣Cambia la transparencia de la caja principal♣♣♣♣*/
+.caja{
+    background-color: rgba(176, 160, 100, 0.3);
+}
+/*♣♣♣♣estilos del titulo♣♣♣♣*/
+#titulo{
+	text-shadow: 1px 1px white;
+}
+#titulo h1{
+	font-size: 4em;
+	font-weight: 600;
+}
+#titulo h4{
+	font-weight: 600;
+}
+/*♣♣♣♣cambios al contenido de la izquierda♣♣♣♣*/
+.contenido_Izquierda{
+    background-color: aliceblue;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.contenido_Izquierda div:nth-child(2) .menu{
+    margin-top: 20px;/*margen superior a favoritos*/
+    margin-bottom: 40px;
+    padding: 10px;
+}
+.contenido_Izquierda div:nth-child(2) a{
+    margin: 5px;
+    border: solid gray;
+    border-radius: 50px;
+}
+.contenido_Izquierda div:nth-child(4){
+    margin-top: 20px;
+}
+ul:nth-child(1) li a:hover{
+    background-color: rgba(10,10,10,0.1);    
+}
+.contenido_Izquierda div:nth-child(3) div.row img{
+    margin: 5px;
+}
+li a:hover{
+    background: rgba(10,10,10, 0.1);
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.contenido_Izquierda div:nth-child(4) a{
+    margin-left: 18px;
+}
