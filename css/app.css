@@ -1,55 +1,85 @@
 /*♣♣♣♣Imagen de fondo estática♣♣♣♣*/
 body{
-    background-image: url(../img/fondos/fondo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(../img/fondos/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 /*♣♣♣♣Cambia la transparencia de la caja principal♣♣♣♣*/
-.caja{
-    background-color: rgba(176, 160, 100, 0.3);
+.Caja{
+  background-color: rgba(176, 160, 100, 0.5);
 }
+
 /*♣♣♣♣estilos del titulo♣♣♣♣*/
-#titulo{
-	text-shadow: 1px 1px white;
+#Titulo h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 5em;
+	font-weight: 600;
+	color: darkred;
+	text-shadow: 1px 1px 15px black, -5px -5px 15px white;
 }
-#titulo h1{
-	font-size: 4em;
+#Titulo h4, #Titulo h3{
+	font-family: 'Indie Flower', cursive;
+	color: yellowgreen;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-weight: 600;
 }
-#titulo h4{
-	font-weight: 600;
-}
+
 /*♣♣♣♣cambios al contenido de la izquierda♣♣♣♣*/
-.contenido_Izquierda{
-    background-color: aliceblue;
-    padding-top: 10px;
-    border-radius: 5px;
-    padding-bottom: 15px;
+#Contenido_Izquierda, .Contenido_Izquierda .h4{
+  background-color: aliceblue;
+  padding-top: 10px;
+  border-radius: 5px;
+  padding-bottom: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
-.contenido_Izquierda div:nth-child(2) .menu{
-    margin-top: 20px;/*margen superior a favoritos*/
-    margin-bottom: 40px;
-    padding: 10px;
+#Contenido_Izquierda div:nth-child(2) .menu{
+  margin-top: 20px;/*margen superior a favoritos*/
+  margin-bottom: 40px;
+  padding: 10px;
+	font-weight: 600;
 }
-.contenido_Izquierda div:nth-child(2) a{
-    margin: 5px;
-    border: solid gray;
-    border-radius: 50px;
+#Contenido_Izquierda div:nth-child(2) li a{
+  margin: 5px;
+  border: solid gray;
+  border-radius: 50px;
+	color: yellowgreen;
+	text-shadow: 1px 1px 5px black, -1px -1px 5px black;
 }
-.contenido_Izquierda div:nth-child(4){
-    margin-top: 20px;
+#Contenido_Izquierda div:nth-child(4){
+  margin-top: 20px;
 }
 ul:nth-child(1) li a:hover{
-    background-color: rgba(10,10,10,0.1);    
+  background-color: rgba(140,140,130,0.5);    
 }
-.contenido_Izquierda div:nth-child(3) div.row img{
-    margin: 5px;
+#Contenido_Izquierda div:nth-child(3) div.row img{
+  margin: 5px;
 }
 li a:hover{
-    background: rgba(10,10,10, 0.1);
-    margin-right: 20px;
-    border-radius: 50px;
+  background: rgba(10,10,10, 0.3);
+  margin-right: 20px;
+  border-radius: 50px;
 }
-.contenido_Izquierda div:nth-child(4) a{
-    margin-left: 18px;
+#Contenido_Izquierda div:nth-child(4)/*Historial*/ a{
+  margin-left: 18px;
+}
+#Contenido_Izquierda .Favoritos{
+	color: rgb(100,20,20);
+}
+#Contenido_Izquierda .Favoritos a:hover{
+	background-color: rgba(20,100,100 ,0.5)
+}
+
+/*♣♣♣♣Cambios al Contenido Principal♣♣♣♣*/
+#Contenido_Principal, .Contenido_Principal h3{
+	font-weight: 100;
+	font-family: 'Shrikhand', cursive;
+}
+#Contenido_Principal h3{
+	color: yellowgreen;
+	text-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
+#Contenido_Principal small{
+	color: black;
+	text-shadow: none;
 }
